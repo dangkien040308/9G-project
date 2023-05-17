@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Cabin&family=Fira+Sans&family=Libre+Franklin&family=Manrope&family=Merriweather:wght@400;700&family=Mountains+of+Christmas&family=Noto+Sans&family=Open+Sans&family=Overpass&family=Poppins:wght@200&family=Roboto:wght@400;700&family=Rubik&family=Signika+Negative&family=Space+Grotesk&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Cabin&family=Caveat:wght@600&family=Fira+Sans&family=Libre+Franklin&family=Manrope&family=Merriweather:wght@400;700&family=Mountains+of+Christmas&family=Noto+Sans&family=Open+Sans&family=Overpass&family=Poppins:wght@200&family=Roboto:wght@400;700&family=Rubik&family=Satisfy&family=Signika+Negative&family=Space+Grotesk&family=Titillium+Web&display=swap');
 
 
 body {
@@ -64,32 +64,62 @@ ul {
 }
 .fi-item {
    height: 100vh; 
-   background-image: url('2011\(1\).jpg');
+   background-image: url('kiyeu4.jpg');
    background-position: center;
    background-size: cover;
    position: relative;
    border-bottom: 5px solid #fff;
    border-top: 5px solid #fff;
+   font-family: 'Satisfy', cursive;
 }
-.fi-item > p:nth-child(1) {
+.fi-item > .title {
+    font-size: 150px;
+    color: #1ab7ea;
     position: absolute;
-    top: 0;
-    left : 25%
+    top : 7% ;
+    left: 25%;
 }
 .fi-item > .icon {
     position: absolute;
-    top : 15% ;
-    left : 44% ;
+    top : 14% ;
+    left : 43% ;
+}
+.fi-item > .des {
+    position: absolute;
+    top : 20% ;
+    right : 25% ;
+    color: #1ab7ea;
 }
 .fi-item > .icon > i {
     font-size: 80px;
     color: #fff;
     transform: rotate(5deg);
+    color: #1ab7ea;
 }
-.fi-item > .des {
-    position: absolute;
-    top : 20% ;
-    right : 20% ;
+.se-item {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.se-item > .bgr:nth-child(1) {
+    width: 76%;
+    height: 85%;
+    background-image: url('kiyeu1.jpg');
+    border-radius: 10px;
+    padding: 10px;
+}
+.se-item > .bgr:nth-child(2) {
+     width: 22%;
+     font-size: 50px;
+     font-weight: bolder;
+     font-style: italic;
+     line-height: 100px;
+     background-color: #EEEEEE;
+     padding: 20px;
+     border-radius: 5px;
+     text-transform: uppercase;
 }
 .main {
     height: 100vh;

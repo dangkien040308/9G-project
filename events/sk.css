@@ -128,7 +128,7 @@ ul li.it {
     opacity: 1;
     transform: translateY(0);
 }
-#grade6 , #grade7 , #grade8 {
+#grade6 , #grade7 , #grade8 , #grade9 {
     width: 95%;
     margin: 0 auto;
     border-bottom: 3px solid 	#111111;
@@ -203,6 +203,6 @@ body::-webkit-scrollbar-thumb {
     font-style: italic;
 }
 .slogan2 {
-    font-size: 12px;
+    font-size: 20px;
     font-style: italic;
 }

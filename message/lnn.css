@@ -141,7 +141,6 @@ body::-webkit-scrollbar-thumb {
     font-size: 19px;
     padding: 30px;
     text-indent: 20px;
-    height: 60vh;
     background-image: linear-gradient(45deg,#A9f99E , #46ADD5);
     line-height: 30px;
     width: 100%;
